@@ -1,0 +1,238 @@
+# 4 Mai 2026
+
+JE VAIS PAYER CLAUDE CODE DEMAIN 200 dollar et je vais apprendre l’animation
+
+MON REVE C EST DE FAIRE DE L ANIMATION 3D ET DES ENVIRONNEMENTS 3D MAGNIFIQUES
+
+Pourquoi ? pour livrer des jeux des expériences graphiques surpuissantes. Comment on fait ça ON APPRENDRE HOUDINI / ON APPREND MAYA ET ON APPRENDS UNREAL DIRECTEMENT.
+
+**Breakthrough**
+
+Quels sont les limites structurantes d’un fichier MD … tu as envie d’avoir un résumé rapide sur le fichier parce sinon c’est un peu pareil que regarder un énorme excel. Mais MAC + Claude Code ça change absolument la vie.
+
+JE NE SAIS PAS FAIRE UN TRUC : 
+
+je sais tu va me montrer et je vais observer utilise mon pc ou chrome mcp moi je regarde puis tu constitues un fichier .md directement dans memory ou tu notes toutes les informations job disponible je te regarde faire et ça me permettra de comprendre en ayant vu quelqu'un le faire
+
+Fais une boucle infinie tant que tu n'as pas fini de trouver au moins 100 clients / prospects que je pourrai contacter.
+
+Outbound avec Claude ??? wtf mais totalement possible … Je pense que je vais prendre le deuxième abonnement à 200 euros par an.
+
+![image.png](4%20Mai%202026/image.png)
+
+Juste produire de la 3D moins de technique aller vers le rendu final … ignorer l’aspect technique. PLAYBOOK CONTRUIRE FOLIO MAIS AUSSI LES CONTRATS.
+
+Ok. Pas de généralités. Voilà le cycle freelance réel pour un tech artist.
+
+---
+
+## Le cycle complet
+
+**Trouver -> Contacter -> Appel -> Proposer -> Livrer -> Facturer -> Recommencer**
+
+La plupart des gens qui ne trouvent pas de freelance sont bloqués à l'étape 1 ou 2. C'est ton cas probable.
+
+---
+
+## Étape 1 : Où chercher des clients (spécifique tech art)
+
+Pas en attendant que ton Artstation soit découvert. Chercher activement ici :
+
+- **ArtStation Jobs** - filtre "Technical Artist" + "Remote" + "Contract/Freelance". C'est là que les studios postent les contrats courts.
+- **LinkedIn Jobs** - même filtres. Les AA studios postent souvent des missions courtes là.
+- **SideFX forums / Houdini Discord** - des studios y cherchent directement des gens qui savent Houdini. Tu es déjà visible dans cette communauté.
+- **Outreach direct** - studios français d'abord (avantage langue/fuseau) : Dotemu, Motion Twin, Amplitude Studios, Appeal Studios, Mi-Clos, Fishing Cactus. Puis studios AA internationaux en remote : Remedy, Raw Fury, Devolver (leurs partenaires), etc.
+
+---
+
+## Étape 2 : Le message de contact (ce que personne n'enseigne)
+
+**Mauvais message :**
+
+> "Bonjour, je suis Technical Artist Houdini/UE5, disponible en freelance, voici mon portfolio."
+> 
+
+Ça dit "je cherche du travail." Ça ne dit pas "je résous ton problème."
+
+**Bon message :**
+
+> "Bonjour [Prénom], j'ai vu [nom du jeu ou projet récent]. Le système de [X] dans [niveau/zone] m'a interpellé - j'ai construit quelque chose de similaire pour [contexte]. Je suis disponible en freelance en ce moment, spécifiquement sur pipeline procédural / outils Houdini / UE5 environment systems. Si vous avez un besoin dans ce registre d'ici 1-2 mois, je serais partant pour un appel de 20 minutes."
+> 
+
+Ce que ça fait : montre que tu connais leur travail, propose quelque chose de précis, demande peu (20 minutes, pas "engagez-moi").
+
+---
+
+## Étape 3 : L'appel de découverte
+
+Quand quelqu'un répond positivement, un appel de 20-30 minutes suffit. Tu poses ces questions :
+
+- Quel est le projet / le besoin ?
+- Quel est le délai ?
+- Quelle est la taille de l'équipe tech art actuelle ?
+- C'est quoi le budget prévu ? (dis-le directement, ne tourne pas autour)
+
+Tu n'es pas là pour impressionner. Tu es là pour comprendre si tu peux aider.
+
+---
+
+## Étape 4 : Proposer et tarifer
+
+Tech art freelance remote, niveau junior-mid France :
+
+- **TJM réaliste maintenant : 250-400€/jour**
+- **Objectif dans 6 mois : 400-600€/jour**
+
+Pour une mission de 10 jours = 3000-4000€. C'est concret.
+
+Pour une première mission, propose un livrable précis sur une durée courte (1-2 semaines). Pas "je suis disponible pour travailler sur votre jeu." Mais : "Je vous livre un système de scatter procédural Houdini-UE5 paramétrable en 10 jours."
+
+---
+
+## Étape 5 : L'admin (simple)
+
+En France, statut **auto-entrepreneur** pour commencer. Inscription en 15 minutes sur autoentrepreneur.urssaf.fr. Tu factures, tu déclares le CA chaque trimestre. Plafond à ~77k€/an, largement suffisant pour commencer.
+
+Pour les factures : template Word/Google Docs suffit pour les premières missions. Numéro de facture, SIRET, montant, IBAN. C'est tout.
+
+---
+
+## Ce que tu fais cette semaine
+
+1. Ouvre ArtStation Jobs + LinkedIn Jobs, note 10 studios qui postent des besoins tech art remote
+2. Identifie le nom du technical director ou art director de chacun sur LinkedIn
+3. Envoie 5 messages cette semaine - version adaptée du bon message ci-dessus
+4. Si tu n'as pas encore ton auto-entrepreneur : inscris-toi (15 min)
+
+C'est le seul truc qui change la variable matérielle.
+
+il faut vraiment qu’on bosse et qu’on avance l’église. et que je passe au prochain projet putain.
+
+Complétion de l’article.
+
+C’est drôle mais en soit le stress n’existe pas la seule chose qui compte c’est pouvoir manger pour rester en vie !
+
+Problème dur dans [Houdini1.md](http://Houdini1.md) ! transfère [3D.md](http://3D.md) à l’intérieur et le problème 3D en rêgle générale.
+
+**`detail(1, "iteration", 0)` — explication enfant de 10 ans**
+
+Imagine que tu as une machine à tamponner des planches. La machine traite une planche à la fois. À chaque fois qu'elle commence une nouvelle planche, elle écrit sur un post-it : "je suis en train de faire la planche numéro 5".
+
+Ce post-it c'est le **metadata node** (`foreach_begin1_metadata1`). Il n'est pas sur la planche elle-même — c'est un post-it séparé qui dit juste "on est à l'itération N".
+
+`detail(1, "iteration", 0)` — traduction mot à mot :
+
+- `detail` = "lis un seul chiffre global" (pas par vertex, pas par prim — juste une valeur unique)
+- `1` = "sur l'input numéro 1 de ce node" (le second câble entrant, qui vient du metadata)
+- `"iteration"` = "lis le chiffre qui s'appelle iteration"
+- `0` = "si ça existe pas, retourne 0 par défaut"
+
+Sans ce câble metadata branché, `@iteration` retourne toujours 0 → toutes les planches identiques. Avec le câble + `detail(1, ...)` → chaque planche reçoit son numéro unique → `rand(iter + 42)` donne un offset différent.
+
+set uv rand
+
+int iter = detail(1, "iteration", 0);
+
+@uv.y += rand(iter + 42);
+
+---
+
+s@name = "A" + itoa(@primnum + 1);
+
+s@name = sprintf("A%d", @primnum + 1); 
+
+s@name = sprintf("A%d", @ptnum % 40 + 1);
+
+sprintf = *Formats a string like printf but returns the result as a string instead of printing it.*
+
+itoa = *Converts an integer to a string.*
+
+primnum
+
+ptnum
+
+Publier la church si possible go
+
+![image.png](4%20Mai%202026/image%201.png)
+
+![image.png](4%20Mai%202026/image%202.png)
+
+**1. Comment copier un paramètre dans VEX ?**Si tu veux que ton modulo utilise exactement le nombre défini dans le noeud pts de ta ligne, sans écrire "40" en dur :
+
+   1 // 1. On va chercher le paramètre "points" du noeud "pts"
+   2 int max_planks = chi("../pts/points"); 
+   3
+   4 // 2. On l'utilise dans notre formule avec le modulo
+   5 s@name = sprintf("A%d", (@ptnum % max_planks) + 1);
+
+  **Astuce Pro dans Houdini :** 
+  Au lieu de taper le chemin ../pts/points à la main, tu peux créer un paramètre directement sur ton Wrangle ! 
+   1. Dans ton Wrangle, tape : int max_planks = chi("max_points");
+   2. Clique sur le petit bouton à droite de ta zone de texte VEX (le bouton avec un curseur/slider). Ça va créer un champ "Max Points" juste en dessous de ton code.
+   3. Fais un **Copy Parameter** sur ton noeud pts (Clic droit sur "Points" -> Copy Parameter).
+   4. Fais un **Paste Relative References** dans ton nouveau champ "Max Points" sur le Wrangle.
+
+  ---
+
+  **2. Le Modulo (%) expliqué très simplement**Oublie les maths 2 minutes. Imagine le Modulo comme un **distributeur de cartes à jouer**. 
+
+  Imagine que tu as **40 cartes différentes** (tes 40 planches A1 à A40).
+  Tu as **100 joueurs** (tes 100 points sur la ligne).
+
+  Tu donnes une carte à chaque joueur, un par un :
+   - Joueur 0 reçoit la carte 0
+   - Joueur 1 reçoit la carte 1
+   - ...
+   - Joueur 39 reçoit la carte 39
+
+  **Que se passe-t-il au Joueur 40 ?** Tu n'as plus de nouvelles cartes ! 
+  Donc, avec le modulo % 40, tu **reprends le paquet du début** :
+   - Joueur 40 reçoit la carte 0
+   - Joueur 41 reçoit la carte 1
+
+  Le Modulo % X, c'est littéralement dire : *"Compte normalement, mais dès que tu arrives à X, recommence à 0."*C'est pour ça que :
+  @ptnum % 40 fait : 0, 1, 2... 39 -> 0, 1, 2... 39 -> 0, 1, 2... à l'infini !
+
+  Et comme tes noms de planches commencent à "A1" et non "A0", on ajoute un +1 à la fin.
+
+greg gambatto logic pattern memem si tu penses ne pas avoir d energie en journee tu peux te remettre a travailler et ca va repartir de l’avant ne gache pas de temps arrete de faire l’autiste et gagne de l’argent dams un modele qui te comvient
+
+Ancien fichier désormais Freelance1.md
+
+[Freelance](4%20Mai%202026/Freelance%202f8d4ee179c380d58078da5a4c49fced.md)
+
+Suite du game = 
+
+- Va sur LinkedIn Jobs → cherche "Tech Artist" ou "Environment Artist"
+- Note 5 studios qui recrutent
+- Trouve le Art Director ou Lead Tech de chaque studio
+- Envoie 5 DMs
+
+**1. Les offres d'emploi (même si t'es freelance)**
+
+- LinkedIn Jobs, ArtStation Jobs, AFJV, GameJobs.co
+- Tu cherches : "Tech Artist", "Environment Artist", "Houdini", "Unreal"
+- Tu ne postules pas comme salarié → tu contactes directement le Lead Tech Art ou Art Director du studio
+- Message : *"J'ai vu que vous cherchez un Tech Artist. Si jamais vous avez aussi des besoins ponctuels en freelance, je suis dispo."*
+
+**2. Les studios qui sortent des jeux / font de l'actu**
+
+- Un studio annonce un jeu → ils recrutent probablement
+- Un studio poste du WIP sur LinkedIn/Twitter → ils sont en production
+- Tu trouves le Art Director ou Lead sur LinkedIn → tu envoies un message
+
+**3. Les connexions de tes connexions**
+
+- Erwan, Léo, Adrien → regarde leurs connexions LinkedIn
+- Filtre par "Tech Artist", "Environment Artist", "Art Director"
+- Message : *"Salut, je suis connecté avec [Erwan/Léo] et je me lance en freelance Tech Art. Je serais curieux d'échanger sur ton parcours si t'as 10 min."*
+
+Next Clients : Reformuler vraiment les messages pitiez.
+
+*L’action est le seul feedback → L’action donne l’information.*
+
+5 messages par jour. Objectif simple dès le matin 
+
+La prospection c’est hyper simple c'est tout. Tu envoies du texte. Les gens te découvrent. Certains répondent. Certains ont des besoins. Tu les aides. Ils te paient.
+
+![image.png](4%20Mai%202026/image%203.png)
