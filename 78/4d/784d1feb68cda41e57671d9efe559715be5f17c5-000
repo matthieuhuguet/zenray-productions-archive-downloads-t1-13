@@ -1,0 +1,5 @@
+# Le IK Snap Challenge
+
+Le **IK Snap Challenge** est un problème courant rencontré lorsqu’on manipule des rigs ou des systèmes d’animation dans des logiciels comme Unreal Engine ou Maya. Il consiste à faire correspondre de manière fluide les positions entre des systèmes **IK (Inverse Kinematics)** et **FK (Forward Kinematics)** sans provoquer de saut ou de désalignement visible dans les animations.
+
+![image.png](Le%20IK%20Snap%20Challenge/image.png)
