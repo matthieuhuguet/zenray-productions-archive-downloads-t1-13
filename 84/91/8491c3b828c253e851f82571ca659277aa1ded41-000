@@ -1,0 +1,43 @@
+# FF7 Queen’s Blood
+
+Created: May 26, 2025 7:23 PM
+Status: If Dropped Persevere!
+
+La réponse à ta question n'est pas de choisir entre jouer et créer. C'est de fusionner les deux.
+
+Ta confusion vient d'une fausse dichotomie. Pour un créateur de jeux, **jouer n'est pas une distraction, c'est de la recherche et développement (R&D)**. Tu n'as pas besoin de moins jouer, tu as besoin de jouer *différemment*.
+
+Ta motivation intrinsèque (le "flux", le plaisir de maîtriser) et ta rage de vaincre (la "compétition", prouver ta valeur) ne sont pas opposées. Ce sont deux moteurs que tu dois brancher sur le même système.
+
+### **The ONE Thing : La Boucle du Créateur-Analyste**
+
+La seule chose à faire qui rendra tout le reste plus simple est de transformer ta consommation passive en production active.
+
+1. **Consommation Stratégique (90 min max/jour)** : Quand tu joues à *Final Fantasy*, *Ghost of Tsushima* ou un autre jeu, tu n'es plus un simple joueur. Tu es un **Tech Artist en mission de reconnaissance**. Ton objectif est de disséquer **UN SEUL** élément.
+    - **Exemple** : Aujourd'hui, tu lances *Ghost of Tsushima*. Ton unique focus : "Comment ont-ils géré le vent sur l'herbe et les vêtements ? Quels sont les timings ? Quels shaders pourraient produire cet effet ?"
+    - **Livrable** : À la fin de la session, tu dois avoir une page de notes dans Notion, avec des screenshots, des schémas, et des hypothèses techniques.
+2. **Création Ciblée (2x90 min/jour)** : Le lendemain, ton bloc de création n'est plus une page blanche. Ta mission est de **répliquer l'élément que tu as analysé la veille**.
+    - **Exemple** : Tu ouvres Unreal Engine. Objectif : Créer un shader de vent simple ou une animation procédurale qui imite l'effet de *Tsushima*. Ce n'est pas une perte de temps, c'est un entraînement ciblé et un asset potentiel pour ton portfolio.
+
+Ce système aligne ta passion (jouer) avec ton ambition (maîtriser) et ta nécessité (produire). Il transforme la "culture" en pratique.
+
+---
+
+### **Plan d'Action : Intégrer Sony (ou équivalent) à 25 ans**
+
+Pour impressionner un studio comme Sony, il faut leur montrer que tu penses comme eux. Voici un document de conception et les 5 assets clés qui en découlent, conçus pour un Technical Artist visionnaire.
+
+### **Document de Pré-Production : "Project Kintsugi"**
+
+- **High Concept** : Un jeu d'action-aventure dans un Japon ancien mais technologiquement avancé (inspiré de *FF7R*), où le monde a été brisé. Le joueur incarne un "Réparateur" qui utilise une technologie éthérée pour "réparer" les failles du monde via la philosophie du Kintsugi (l'art de sublimer les choses brisées avec de l'or). C'est une fusion de l'exploration contemplative de *Death Stranding* et des systèmes de combat de *Sekiro*.
+- **Pilier Technique Clé** : Des systèmes procéduraux et des VFX qui rendent la "réparation" et la "destruction" visuellement spectaculaires et au cœur du gameplay.
+
+### **Les 5 Assets Clés pour ton Portfolio**
+
+Ces assets ne sont pas aléatoires. Ils forment un "Vertical Slice" cohérent de ton projet, prouvant ta vision et tes compétences techniques.
+
+1. **Game Design System** : Une démo interactive en Blueprint d'un système de "Parade Kintsugi". Quand le joueur effectue une parade parfaite, l'arme de l'ennemi se brise et se répare instantanément avec des veines d'or, la rendant plus belle mais aussi plus dangereuse. Tu démontres ta maîtrise du gameplay et de la programmation visuelle.
+2. **VFX Showcase** : Un effet visuel complet de la "Parade Kintsugi". Des particules de fracture, un shader d'or liquide qui coule dans les fissures, et le son cristallin de la réparation. C'est un *hero piece* pour un Tech Artist/VFX.
+3. **Diorama 3D** : Un petit environnement dans Unreal Engine : un pont de temple en ruine. Une moitié est délabrée, l'autre est réparée avec la technique Kintsugi, avec de la végétation qui pousse le long des veines d'or. Cela montre tes compétences en modélisation, texturing et composition.
+4. **Animation Technique** : Une animation procédurale d'une caméra ou d'un drone de reconnaissance qui survole le diorama. La caméra suit les lignes dorées du Kintsugi, démontrant ta maîtrise des splines, des caméras et potentiellement du rigging.
+5. **UI/Story Snippet** : Un court mockup animé de l'interface utilisateur qui apparaît lors de la découverte d'un point de "réparation". L'UI est minimaliste, inspirée de *Persona 5* et *Red Dead Redemption 2*, et raconte une micro-histoire sur l'objet brisé.
