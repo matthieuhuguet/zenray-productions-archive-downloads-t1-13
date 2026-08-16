@@ -1,0 +1,9 @@
+# Development and iterations
+
+J’ai réalisé le système de carressage via progression de 4 zones qui permette de progresser jusqu’à 100 % ce qui complète le mini jeu. Il faudrait faire la vérifications de chaque child actor et ou voir si c’est utile la node Get Children Components est puissance pour générer automatiquement un array.
+
+Détails à ajouter UI pour la progression et bonus et malus (tu touches une zone agréable bonus avec coeur 💕 et zone sensible petit éclair ⚡)
+
+Passons à la sélection du chien lors de la sélection de machine via 
+
+Trois Animaux à setup
