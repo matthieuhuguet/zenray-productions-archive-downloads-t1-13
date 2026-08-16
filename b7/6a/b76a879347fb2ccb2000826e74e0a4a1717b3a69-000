@@ -1,0 +1,11 @@
+# 19 Mars 2026
+
+Tout les meshs à valider.
+
+Commencer par l’arbre puis par le sol puis par la maison.
+
+Ok je suis au niveau me mon LouisianaBayou je souhaite que tu comprennes ma scène et mon houdini actuel Le motif, c'est de réassembler tous les mèches désormais sur Houdini pour avoir un block out propre par rapport au block out qu'on avait déjà fait sur Unreal Engine.
+
+Mais j'aimerais qu'on passe à l'étape supérieure, dans le sens où il va falloir modéliser certains assets non créés et mettre les matériaux, etc., et mettre des simulations, peut-être à certains endroits, là où il y en a besoin, notamment au niveau de l'eau. Même si l'eau est déjà gérée par un shader dans Unreal, je peux pas juste le mettre sur un truc plat, quoi. Il faut vraiment avoir des splines.
+
+Retard sur la deadline LouisianaBayou
