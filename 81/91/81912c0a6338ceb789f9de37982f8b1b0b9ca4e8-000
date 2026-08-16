@@ -1,0 +1,19 @@
+# :houdini3d_icon: Houdini Generative Wall 1 Asset
+
+Created: September 30, 2025 5:32 PM
+Update: October 3, 2025 11:34 PM
+status: Done
+
+After generating a wall in houdini in procedural wall for uv and optimization it’s always better to merge everything in a kind of wall to have one asset with detail 
+
+In order to do so I use a cube that match size of my walls 
+
+I 
+
+mergel
+O
+vdb from polygonsl
+vdbsmoothl
+COnvertvdb1
+
+if you are interested in generating a wall in houdini with variations feel free to reply in comments.
