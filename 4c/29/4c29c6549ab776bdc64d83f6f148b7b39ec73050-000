@@ -1,0 +1,45 @@
+# PostLinkedin
+
+# AI Agent LinkedIn - Post: Houdini Normals & Scattering
+
+**— VERSION FRANÇAISE —L’IMPORTANCE CRUCIALE DES NORMALES DANS LE SCATTERING“Maîtriser l’orientation pour dompter la végétation.”Pourquoi un scattering réussi ne repose pas sur la chance, mais sur les Normales (@N).**
+
+Un scattering réussi et une végétation crédible reposent sur une seule variable : la maîtrise de l’orientation des Normales (@N). Sans un alignement précis à la source, les instances deviennent incontrôlables une fois projetées dans l’espace.
+
+🔹 **Le Workflow** :
+1. **Ancrer l’Orientation** : Utilisation du node *Normal* sur “Primitives” pour capturer l’orientation des faces, suivi d’un *Extract Centroid* pour transférer @N à un point central stable.
+2. **Symétrie Contrôlée** : Pour les formes complexes (blé, fougères), pilotage de l’orientation globale via une grille de base avant le *Mirror* pour garantir la cohérence des normales sur chaque “branche”.
+3. **Standard Y-Mesh** : Génération d’une géométrie optimisée via le node *Sweep* sur des lignes orientées, offrant le meilleur ratio volume/performance pour le temps réel.
+4. **Déformation Organique** : Ajout de nodes *Bend* et *Taper* en fin de graph pour briser la rigidité mathématique sans compromettre la stabilité du scattering.
+
+🔹 **La Touche Tech** : Houdini / VEX pour le transfert d’attributs précis et la gestion des vecteurs d’orientation.
+🔹 **L’Optimisation** : Élimine le besoin de rotations manuelles (“hard-coded”) en VEX, rendant l’asset 100% modulaire et robuste pour des environnements massifs.
+
+Prêt à passer au scattering industriel ? Découvrez le détail du graph ci-dessous ⬇️
+
+**— ENGLISH VERSION —THE CRITICAL ROLE OF NORMALS IN PROCEDURAL SCATTERING“Mastering orientation to tame your vegetation.”Why effective scattering isn’t luck—it’s all about Normals (@N).**
+
+Effective scattering and believable vegetation hinge on one variable: mastering Normal orientation (@N). Without precise source alignment, instances drift or become uncontrollable once projected.
+
+🔹 **The Workflow**:
+1. **Anchoring Orientation**: Start with a *Normal* node set to “Primitives” to capture face orientation, then use *Extract Centroid* to transfer @N to a definitive pivot point.
+2. **Controlled Symmetry**: For complex forms like wheat or ferns, drive global orientation using a base grid before the *Mirror* workflow to maintain consistency across all branches.
+3. **Y-Mesh Standard**: Using a *Sweep* node on oriented lines generates geometry that is lightweight yet visually dense—perfect for real-time engines.
+4. **Organic Deformation**: Break mathematical rigidity with *Bend* and *Taper* nodes at the end of the graph, adding organic curvature while keeping the scattering stable.
+
+🔹 **Tech Stack**: Houdini / VEX for precise attribute transfer and orientation vector management.
+🔹 **Optimization**: Eliminates the need for manual rotation fixes in VEX. The result is a robust, modular asset ready for massive scattering environments.
+
+Ready to scale your procedural assets? Check out the full graph breakdown below ⬇️
+
+#ZenRayStudios #ZenRayProductions #Houdini #TechArt #Procedural #3DArt #Gamedev #UnrealEngine #VEX
+
+---
+
+**IMAGES DU POST :**
+1. [Image 1 : NormalComputePrimitives, ExtractCentroidTransferAttributesN]
+2. [Image 2 : AddLines, Mirror 2 Times. for Wheat / Plant Shape]
+3. [Image 3 : add YMesh With Sweep]
+4. [Image 4 : YMesh Setup]
+5. [Image 5 : Bend and Taper]
+6. [Image 6 : Houdini Graph Complete]
