@@ -1,0 +1,37 @@
+# Format de vidéo
+
+Created: July 31, 2025 8:34 PM
+Update: July 31, 2025 9:05 PM
+
+h264 vs h264 intra
+
+| Domaine d'Application | 🎯 Objectif Principal | ✅ Codec(s) Recommandé(s) | 📦 Conteneur(s) Recommandé(s) |
+| --- | --- | --- | --- |
+| Montage & Étalonnage | Fluidité maximale | ProRes 422 HQ, DNxHR HQ | .MOV |
+| Diffusion Web & Client | Ratio Poids/Qualité, Compatibilité | H.264, H.265/HEVC, AV1 (futur) | .MP4 |
+| Jeu Vidéo (Cinématiques) | Performance de décodage | Bink Video, H.265/HEVC | .bik, .mp4 |
+
+| Codec | Type de Compression | Charge CPU/GPU (Décodage) | Débit de Données (Poids) | Idéal Pour |
+| --- | --- | --- | --- | --- |
+| H.265/HEVC | Inter-image (Long GOP) | Très Élevée | Très Faible | Diffusion, Archivage |
+| H.264/AVC | Inter-image (Long GOP) | Élevée | Faible | Diffusion, Web |
+
+| Format | Profil | Débit moyen | Poids 1 min 4K | Qualité / Usage |
+| --- | --- | --- | --- | --- |
+| **ProRes** | Proxy | ~170 Mbps | ~1,27 Go | Montage offline rapide |
+|  | LT | ~360 Mbps | ~2,69 Go | Léger, suffisant pour la plupart des montages |
+|  | 422 (Standard) | ~500 Mbps | ~3,73 Go | Diffusion standard |
+|  | HQ | ~735 Mbps | ~5,49 Go | Master haute qualité |
+| **DNxHR** | LB (Lightest) | ~145 Mbps | ~1,08 Go | Équivalent Proxy, ultra rapide |
+|  | SQ (Standard Quality) | ~365 Mbps | ~2,73 Go | Équivalent LT |
+|  | HQ | ~550 Mbps | ~4,12 Go | Équivalent 422 |
+|  | HQX (10‑bit) | ~880 Mbps | ~6,59 Go | Haute qualité 10‑bit |
+|  | 444 | ~1 370 Mbps | ~10,25 Go | Mastering 4:4:4 |
+
+| Caractéristique | ProRes 422 LT | DNxHR LB |
+| --- | --- | --- |
+| Optimisation PC | Bonne (cross-platform) | Excellente |
+| Profondeur de couleur | 10-bit | 8-bit |
+| Sous-échantillonnage | 04:02:02 | 04:02:00 |
+| Poids / Débit | Modéré | Très Faible |
+| Vitesse d'encodage | Rapide | Très Rapide |
