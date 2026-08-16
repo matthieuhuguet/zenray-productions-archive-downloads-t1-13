@@ -1,0 +1,201 @@
+# PortfolioShare
+
+[Projects](PortfolioShare/Projects%202ead4ee179c380e99663e2b5ae985ee5.csv)
+
+[Projects (1)](PortfolioShare/Projects%20(1)%202fdd4ee179c3800b91c9e9f51c85f515.csv)
+
+# **Format de Publication — Blueprint**
+
+---
+
+## **Ce que tu es**
+
+**3D Artist.** Pas un tuteur, pas un influenceur. Un créateur qui montre son travail.
+
+## **Ce que tu évites**
+
+❌ Face cam explicative style Yomi Denzel/Oussama Ammar.
+
+❌ "Hey guys today we're gonna..." Pas de format type Gorka
+
+❌ Tuto screen-record avec voix-off molle genre TechArtAid/EricKeller vraiment insupportable
+
+❌ Contenu qui mendie l'attention ou dit du vent, genre les marketeux sur Linkedin. L IA.
+
+## **Ce que tu vises**
+
+| **Référence** | **Ce que tu en prends** |
+| --- | --- |
+| **Quixel Rebirth / Iceland** | Cinématographie du craft, silence + musique épique |
+| **PlayStation Showcase** | Tension, reveal, rythme de montage |
+| **Trailers AAA** | Chaque seconde compte, pas de gras |
+| **Wafu Sohonke / NHK** | Lenteur maîtrisée, respect du sujet, élégance |
+
+---
+
+## **Structure d'une vidéo**
+
+```
+text
+1. TITRE MOTION — accrocheur, typographie forte
+   (style "COMMENT LA CHINE..." / une phrase qui claque)
+
+2. CONTENU — ton process, artist side
+   → pas d'explication, juste le geste
+   → montage serré ou contemplatif selon le sujet
+   → alternance viewport / rendu final
+
+3. MUSIQUE — anime / épique / émotionnelle
+   → elle porte 60% de l'émotion
+
+4. SFX — transitions, impacts, textures sonores
+   → ce qui sépare l'amateur du pro
+
+5. LOGO FIN — ta signature, clean, 2-3 secondes
+```
+
+---
+
+## **Règle simple**
+
+> ***Si ça pourrait passer dans un showcase Unreal ou un trailer Capcom, c'est bon. Si ça ressemble à un tuto YouTube, recommence.***
+> 
+
+Une présentation requiert une direction artistique mémorable intéressante bien faire les choses.
+
+1. Titre Animé Motion. 
+
+1. Clean up all weird characters (arrows, dashes, special formatting)
+2. Treat the text as if it's going into an elite French press article (in terms of form/quality) but NOT be pedantic
+3. Keep it in English (translate to English)
+4. Don't change the substance/content, only the form
+
+YouTube First ! Création d’un media puissant 
+
+Twitter Seconds
+
+Zenray on va lock ce nom
+
+*Le tout c’est de progresser petit pas par petits pas de ne pas abandonner de continuer à lire l’esprit est infini et s’intéresser à des formes de médias qui m’intéresse : Openings, Musique Japonaises, VFX, Breakdowns, Trailers de Jeu vidéo. Mais le code est un levier immense donc se poser la question de quoi vouloir créer, du level design, une cinématique etc et créer avec les outils les plus modernes et les plus puissants des solutions pour avoir un edge certains notamment en terme de création et de livraison.*
+
+Quels sont les skills sur lesquels je dois m’améliorer pour avoir un meilleur impact 
+
+Texturing ? Cinematic Storytelling.
+
+[branding_social_media (1)](PortfolioShare/branding_social_media%20(1)%20251d4ee179c3802aa9e5d23e72a7ea6f.csv)
+
+Template Linkedin Share
+
+[AI_Agent_PostLinkedin.md](PortfolioShare/AI_Agent_PostLinkedin.md)
+
+![image.png](PortfolioShare/image.png)
+
+![image.png](PortfolioShare/image%201.png)
+
+[Reprendre le style d’ichiban japan : da_ichiban_japan faire des vidéos émotionnels qui permettent de s’identifier rapidement mix de plusieurs DA : final fantasy, japon, nostalgie, epic, fantasy, melancolique. ne pas perdre la créativité.](PortfolioShare/Reprendre%20le%20style%20d%E2%80%99ichiban%20japan%20da_ichiban_japa%2025cd4ee179c3809ba87ae7098cb21dcd.md)
+
+![image.png](PortfolioShare/image%202.png)
+
+Post ultra viral 1 ligne (on sait dans l’img de quoi il parle)
+
+![image.png](PortfolioShare/image%203.png)
+
+![image.png](PortfolioShare/image%204.png)
+
+![image.png](PortfolioShare/image%205.png)
+
+![image.png](PortfolioShare/image%206.png)
+
+![img06.jpg](PortfolioShare/img06.jpg)
+
+Template généraliste
+
+- Titre
+- Accroche contexte
+- Conseil
+- Étapes Description Sequentialité (3-6)
+- Phrase de cloture and Call to Action Sell or Interact (Media Branding Oriented)
+- Hashtags. 4 minimum 8 Maximum.
+
+[Titre court et descriptif] **“One-line pitch”**
+
+[Phrase d’ouverture qui plante le décor en une ligne.] **subject-line pitch**
+
+[Bloc d’informations clés en 3 à 6 points courts: ce que c’est, en quoi c’est différent, ce que l’on peut faire, un chiffre ou une contrainte utile.]
+
+[Info pratique ou mode d’emploi en une ligne: comment y accéder, comment essayer, où cliquer.]
+
+[Phrase de clôture légère: invitation à réagir, à tester, à poser des questions.]
+
+[Hashtags précis, 4 à 8 max]
+
+Version adaptée: HDA Houdini → Maya 2023 via Houdini Engine
+
+Créer un HDA dans Houdini et l’utiliser en natif dans Maya.
+
+Objectif: générer un bloc de base paramétrable côté Maya à partir d’un setup Houdini.
+
+Étapes rapides:
+
+1. Concevoir l’algorithme dans Houdini, puis encapsuler dans un Subnetwork.
+2. Remplacer l’input par une Box interne pour garantir un HDA autonome.
+3. Edit Parameter Interface: exposer uniquement les contrôles utiles à l’artiste côté Maya.
+4. Dans Maya 2023, activer le plug-in Houdini Engine.
+5. Créer un cube, Set to Selection, puis ajuster les paramètres du HDA dans l’Attribute Editor.
+
+Astuce pratique: nommer clairement chaque paramètre et ajouter des tooltips courts pour accélérer la prise en main.
+
+#Houdini #HoudiniEngine #Maya #TechnicalArt #Procedural #HDA #3D #GameDev
+
+[Rock Sculpting](PortfolioShare/Rock%20Sculpting%202f9d4ee179c380b8ae83feee27b702eb.md)
+
+DA Pour les poste : GT Ultra Fine  + GT Walsheim en soit GT Et évoluer avec car je trouve leur font vraiment magnifique et très propre.
+
+ce qui compte c’est est ce que ça a de la valeur pour moi,
+
+pas pour les autres, sinon l’exercice est vain, concentre toi uniquement à créer de la valeur pour toi, de manière hebdommadaire et au bout d’un moment l’action te donnera sufisament d’information pour continuer ou pivoter, mais exprime toi, ose en public, fais en sorte de te faire connaître ça prendra sans doute plus de temps que tu ne le crois mais ça finira par marcher …
+
+[branding_social_media (2)](PortfolioShare/branding_social_media%20(2)%20253d4ee179c38035a5f1cb0f0ee62257.csv)
+
+[branding_social_media (1)](PortfolioShare/branding_social_media%20(1)%20252d4ee179c38085b857e64de71cc31e.csv)
+
+[branding_social_media](PortfolioShare/branding_social_media%20211d4ee179c3805f8c4bd5c3c67a0db4.csv)
+
+[My_Branding](PortfolioShare/My_Branding%20211d4ee179c380cb84c0e5fbe80d334a.csv)
+
+[New Ideas](PortfolioShare/New%20Ideas%20114d4ee179c38083ad6ddb5477de3668.csv)
+
+- **Mentors**
+    
+    [Mentors ](PortfolioShare/Mentors%202b8d4ee179c38058a604f4298f4befb2.csv)
+    
+
+[Unreal_Engine](PortfolioShare/Unreal_Engine%201f8d4ee179c3802487b4c08d83e3bcd2.csv)
+
+[Unreal_Engine (1)](PortfolioShare/Unreal_Engine%20(1)%20284d4ee179c3800398b6ea913c1288a3.csv)
+
+[db_notes (1)](PortfolioShare/db_notes%20(1)%20273d4ee179c3808189bae6e1e3563483.csv)
+
+forme · matériaux · lumière · scalabilité · performance
+
+[Untitled](PortfolioShare/Untitled%201ffd4ee179c380b08f2ad6a0c9cf735a.csv)
+
+*Art_Programming_Design*
+
+[C’est interessant le cote aspect serie pour le japonais …
+
+creer une série d’assets theme japon ? commençons lentement puis utilisons l’inertie](PortfolioShare/C%E2%80%99est%20interessant%20le%20cote%20aspect%20serie%20pour%20le%20jap%2024dd4ee179c3804aa6b4f7cb61cf4bd5.md)
+
+[Ces vacances on va focus zbrush → PC maison je rachete celui de tanguy… je swap avec un mac pour maman. bonne utilisation des ressources …](PortfolioShare/Ces%20vacances%20on%20va%20focus%20zbrush%20%E2%86%92%20PC%20maison%20je%20rac%2024bd4ee179c3807085ead1c607190e65.md)
+
+[black_zen](PortfolioShare/black_zen%20239d4ee179c380eab34cd9ee82a491d1.md)
+
+[On essaiera de se concentrer sur un portfolio japon couleur automne.](PortfolioShare/On%20essaiera%20de%20se%20concentrer%20sur%20un%20portfolio%20japo%2024ad4ee179c380828c52f0f347e3198b.md)
+
+[On essaiera de focus sur la vente d’asset](PortfolioShare/On%20essaiera%20de%20focus%20sur%20la%20vente%20d%E2%80%99asset%2024ad4ee179c380009fdfe7d1e1edb6a3.md)
+
+[Voir si formations ou freelancing déterminer avec chatou / pratiquer pour déterminer ce que j’aime faire. = environnement 3D ?](PortfolioShare/Voir%20si%20formations%20ou%20freelancing%20d%C3%A9terminer%20avec%20%2024ad4ee179c3801a8bd6cb6a7e538e88.md)
+
+[écrire une vidéo youtube en mode benzaie ? sur les jeux de l’année recommandé par un développeur ? avoir un avis directement depuis l’industrie ? les vidéos que j’aime et que je regarde sur youtube sont = actualités jv, critique test de jeu, mindset entrepreneurial créatif, ](PortfolioShare/%C3%A9crire%20une%20vid%C3%A9o%20youtube%20en%20mode%20benzaie%20sur%20les%20j%2024ad4ee179c3803c9c4ecf1042450065.md)
+
+[metahuman course anomation batching et automation tech art tooling et freelance digital content … Zbrush !!! with time efforts](PortfolioShare/metahuman%20course%20anomation%20batching%20et%20automation%20%2024bd4ee179c3803ab15ef47cf2f07370.md)
