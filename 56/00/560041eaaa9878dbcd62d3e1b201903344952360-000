@@ -1,0 +1,41 @@
+# Effets Broacast Pour utilisation sonore. je peux faire un post linkedin …
+
+Created: August 8, 2025 8:42 PM
+Update: August 8, 2025 8:44 PM
+
+**Matthieu Voice Final Preset – FFmpeg Broadcast**
+
+- **Lo** – `lowpass=f=12000`
+    
+    Coupe >12 kHz → voix **feutrée** et moins brillante
+    
+- **Ba** – `bass=g=6`
+    
+    Amplifie les graves → **chaleur** et **profondeur**
+    
+- **EQ** – `equalizer=f=120:g=5`
+    
+    Accentue 120 Hz → donne du **corps** à la voix
+    
+- **EQ** – `equalizer=f=4000:g=-3`
+    
+    Atténue 4 kHz → adoucit la brillance agressive
+    
+- **Ga** – `agate=threshold=-45dB:ratio=2`
+    
+    Gate léger → réduit les bruits et respirations faibles
+    
+- **Co** – `acompressor=threshold=-18dB:ratio=2.2:mix=0.85`
+    
+    Compression parallèle douce 80/20 → homogène mais naturel
+    
+- **Lu** – `loudnorm=I=-16:TP=-1.5`
+    
+    Normalisation **-16 LUFS** → niveau conforme podcast pro
+    
+- **Li** – `alimiter=limit=0.9`
+    
+    Limiteur final → évite toute saturation
+    
+
+![image.png](Effets%20Broacast%20Pour%20utilisation%20sonore%20je%20peux%20fa/image.png)
