@@ -1,0 +1,7 @@
+﻿Name
+Animation Channel
+New Bones : Adding Null Ref and settings them at construct for compile save : Check Local Space because they are child
+The Reverse Foot
+"Le parent constraint c’est bien s’il y a plusieurs parent pour manipuler le child, mais ce n’est pas utile si il n’y a qu’un seul parent il vaut mieux utiliser set transform"
+Reverse Foot Final : Rotation Contrain !!!
+Reverse Foot Basic IK change effector
