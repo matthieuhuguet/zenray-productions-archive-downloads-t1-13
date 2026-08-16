@@ -1,0 +1,8 @@
+# Cmake
+
+Created: January 13, 2025 12:36 PM
+Update: January 13, 2025 12:36 PM
+
+CMake trouve et configure automatiquement les modules nécessaires pour ton projet (comme **Qt** dans ton cas), évitant de devoir ajouter manuellement les chemins des bibliothèques et des en-têtes dans Visual Studio.
+
+Le but d'installer **CMake** est de **simplifier la configuration, la génération et la compilation de projets C++**, en particulier lorsqu'ils ont des dépendances externes comme Qt, Boost, OpenCV, etc. Pour ton cas spécifique (script **QtScreenCapture**), **CMake** peut :
