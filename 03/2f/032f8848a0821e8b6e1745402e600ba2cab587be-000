@@ -1,0 +1,233 @@
+# SpeedTree_BaldCypress_Guide
+
+SPEEDTREE GAMES 9.4
+Bald Cypress Tree
+Louisiana Bayou Environment
+Guide de production complet pour Unreal Engine 5
+# 0. Analyse du Breakdown de Reference
+Le breakdown d’Erik Simon decompose le bald cypress en 6 couches distinctes, chacune construite separement dans SpeedTree puis assemblee. Voici ce que chaque image montre :
+Couche 1 : Trunk (Tronc)
+Un tronc unique, tres effile, qui part d’une base evasee (buttress/contrefort typique du bald cypress) et se retrecit en pointe vers le sommet. La texture est gris clair, fibreuse, avec des stries verticales. La base est renflée et montre des “knees” (genoux de cypress). C’est un seul generateur Trunk dans SpeedTree avec un profil de rayon personnalise.
+Couche 2 : Branches
+La structure squelettique de l’arbre, sans feuillage. Les branches principales partent du tronc a differents angles et hauteurs. Elles sont fines, noueuses, avec beaucoup de ramifications secondaires et tertiaires. La silhouette est irreguliere, pas symetrique. C’est le node Branch avec plusieurs niveaux de subdivision (depth 1, 2, 3).
+Couche 3 : Decals & Projectors
+La meme structure de branches mais enrichie avec des decals projetes sur le tronc et les branches. Ca ajoute de la mousse verte, du lichen, des taches d’humidite. Le tronc a l’air plus organique, plus vieilli. Dans SpeedTree, ca se fait via les Mesh Forces ou en post dans Substance Painter. Pour nous : on fera ce detailing dans Substance Painter apres export.
+Couche 4 : Branch Hull Meshes
+Des volumes opaques de feuillage places sur les branches principales, donnant la silhouette globale de la canopee. Les “hulls” sont des mesh cards/clusters qui definissent les grandes masses de feuillage. Ce sont les Leaf Mesh generators dans SpeedTree, utilisant des billboard cards ou des mesh clusters places aux extremites des branches.
+Couche 5 : Leaves (Feuilles)
+Les feuilles individuelles ajoutees aux branches. Le bald cypress a des feuilles en aiguilles aplaties (comme des petites frondes de fougere), disposees de maniere alternee le long des rameaux. Dans SpeedTree, c’est le generateur Leaf avec un atlas de texture contenant les frondes de cypress.
+Couche 6 : Spanish Moss Fronds
+L’element le plus iconique du bayou. De longs filaments gris-vert qui pendent des branches, parfois sur plus d’un metre de longueur. Dans le breakdown, c’est une couche separee drappee sur les branches existantes. Dans SpeedTree, ca se cree avec un generateur Leaf ou Frond attache aux branches, avec une gravite forte (drooping/gravity) pour que ca pende vers le bas.
+
+# 1. Creation du Projet SpeedTree
+
+## 1.1 Lancer le projet
+
+Ouvre SpeedTree Modeler (Games 9.4). Dans la fenetre New Tree, clique sur le template “Conifer”. C’est le plus proche du bald cypress comme point de depart car il a deja une structure de branches en etages avec un tronc central.
+ATTENTION: NE choisis PAS “Plant” ou “Stump”. Le template Conifer te donne la bonne hierarchie de base. Tu vas tout modifier ensuite mais la structure parent/enfant sera correcte.
+Une fois le template charge, supprime TOUT sauf le node Trunk dans le Tree Graph (panneau en bas). On repart de zero sur une base propre.
+## 1.2 Interface SpeedTree : les bases
+Generation Bar (haut) : Les boutons pour ajouter des generateurs (Trunk, Branch, Leaf, Frond, Zone, etc.)
+Tree Graph (bas) : L’arbre hierarchique de tes generateurs. Trunk est le parent, les Branches sont ses enfants, les Leaves sont enfants des Branches.
+Properties (droite) : Les parametres du generateur selectionne.
+Viewport (centre) : Vue 3D. Clic milieu pour tourner, molette pour zoomer, Shift+milieu pour pan.
+TIP: Sauvegarde souvent (Ctrl+S). SpeedTree peut crasher sur les arbres complexes. Nomme ton fichier “BaldCypress_v01.spm”.
+
+# 2. Le Tronc (Trunk)
+
+## 2.1 Forme generale
+
+Selectionne le node Trunk dans le Tree Graph. Dans Properties :
+Section “Generation”
+Length : Monte a 35-45 (en unites SpeedTree). Le bald cypress est grand et effile.
+Radius : Commence a 2.0 pour la base. Le profil va se charger du taper.
+Segments (length) : 8-10 minimum. Plus de segments = un tronc plus lisse et courbable.
+Segments (radial) : 12-16 pour un tronc rond et lisse.
+Section “Radius” (le Profile)
+C’est ICI que tu crees la silhouette du bald cypress. Le profil de rayon definit comment le tronc s’elargit et se retrecit de la base au sommet.
+Profile Curve : Clique sur la courbe de profil. Tu dois creer une forme en “bouteille renversee” :
+Point bas (0%) : rayon a 3.0-4.0 (base tres large, les contreforts)
+Point a 5-8% : rayon encore a 2.5-3.0 (la zone des buttresses s’elargit)
+Point a 15% : rayon a 1.2 (transition rapide vers le tronc principal)
+Point a 50% : rayon a 0.8 (tronc principal, relativement constant)
+Point a 100% : rayon a 0.1-0.2 (pointe fine au sommet)
+ATTENTION: C’est le reglage le plus important de tout l’arbre. La base evasee du bald cypress est ce qui le rend immediatement reconnaissable. Prends le temps de bien ajuster cette courbe. Compare avec ta ref (image Trunk du breakdown).
+Section “Mesh”
+Cap Style : “Smooth” pour le sommet arrondi.
+Section “Skin”
+On ne s’occupe pas des textures dans SpeedTree. Le texturing final sera fait dans Substance Painter. Mais assigne quand meme une bark texture temporaire pour visualiser les proportions. SpeedTree inclut des textures de bark basiques.
+## 2.2 Les Buttresses (Contreforts de base)
+Pour accentuer la base evasee typique du cypress :
+Flares : Dans les proprietes du Trunk, section “Flare”. Active le et monte Flare Amount a 3.0-5.0. Ca cree les protuberances a la base.
+Flare Balance : 0.7-0.8 (les flares sont concentres en bas).
+Flare Count : 4-6 (nombre de contreforts).
+TIP: Regarde ta ref Trunk du breakdown : la base est TRES prononcee, presque comme des racines aeriennes. N’hesite pas a exagerer le Flare Amount.
+
+# 3. Les Branches
+
+## 3.1 Branche Niveau 1 (Branches principales)
+
+Clic droit sur le node Trunk dans le Tree Graph > Add Branch. Un generateur Branch_1 apparait comme enfant du Trunk.
+Section “Generation”
+Count : 12-18 branches principales. Le bald cypress a beaucoup de branches qui partent a differentes hauteurs.
+First Branch : 30-40% de la hauteur du tronc. Les branches basses commencent assez haut sur un cypress mature.
+Last Branch : 90-95%. Les branches vont presque jusqu’au sommet.
+Length : 15-25 (proportionnel au tronc).
+Radius : 0.3-0.5 a la base, taper a 0.05 en bout.
+Section “Angle”
+Down Angle : 60-80 degres. Les branches du cypress partent quasi horizontalement puis retombent legerement. Un angle eleve = plus horizontal.
+Down Angle Variance : 15-25. Ca ajoute de l’irregularite. Certaines branches montent un peu, d’autres tombent plus.
+Rotation Variance : Monte a 50-80% pour eviter une distribution trop reguliere autour du tronc.
+Section “Growth”
+Gravity : 0.1 a 0.3 (leger affaissement, les branches vieilles plient sous leur poids).
+Flexibility : 0.3-0.5. Ca donne une courbure naturelle aux branches.
+## 3.2 Branche Niveau 2 (Branches secondaires)
+Clic droit sur Branch_1 > Add Branch. Ca cree Branch_2, enfant de Branch_1.
+Count : 4-8 par branche parent.
+Length : 5-10 (plus court que les principales).
+Down Angle : 50-70 degres.
+Gravity : 0.2-0.4 (plus d’affaissement que les principales).
+## 3.3 Branche Niveau 3 (Rameaux)
+Optionnel mais recommande pour la densite du breakdown. Clic droit sur Branch_2 > Add Branch.
+Count : 3-5 par parent.
+Length : 2-5.
+Radius : Tres fin, 0.03-0.08.
+TIP: Regarde l’image Branches du breakdown : la silhouette est TRES irreguliere et organique, pas du tout geometrique. Pousse les variances (angle, rotation, length) a des valeurs elevees. Un arbre parfaitement symetrique ne fait pas naturel.
+
+# 4. Le Feuillage (Leaves)
+
+## 4.1 Preparer la texture de feuille
+
+Avant de creer les feuilles dans SpeedTree, tu as besoin d’un atlas de texture. Le bald cypress a des feuilles en “frondes” : de petites aiguilles plates disposees en eventail le long d’un rameau.
+Deux options :
+Option A (rapide) : Utilise une texture de fronde de cypress existante. SpeedTree inclut des textures basiques dans son library. Sinon, telecharge une texture d’atlas de conifere sur Textures.com ou genere en avec AI (photo d’une branche de cypress sur fond blanc, detouree).
+Option B (qualite) : Cree ta propre texture dans Substance Designer. Un atlas avec 3-4 variations de frondes de cypress, avec diffuse + normal + opacity + translucency. On fera ca dans la phase Substance.
+Pour l’instant, utilise une texture placeholder. L’important c’est la forme et la distribution.
+## 4.2 Leaf Generator
+Clic droit sur Branch_2 (ou Branch_3 si tu l’as cree) > Add Leaf.
+Section “Generation”
+Count : 8-15 par branche parent.
+Style : “Mesh” si tu utilises un mesh card, ou “Billboard” pour des cartes planes.
+Section “Size”
+Width : 1.0-2.0
+Height : 0.5-1.0
+Size Variance : 30-50% pour de la variation naturelle.
+Section “Orientation”
+Align to Branch : 0.5-0.7. Les feuilles suivent partiellement la direction de la branche.
+## 4.3 Branch Hull Meshes (les masses de feuillage)
+C’est la couche 4 du breakdown. Les “hull meshes” sont des cartes de feuillage plus grandes qui definissent la silhouette globale de la canopee, en complement des feuilles individuelles.
+Clic droit sur Branch_1 (les branches principales) > Add Leaf. Nomme ce generateur “Leaf_Hull” pour le differencier.
+Count : 3-5 par branche principale.
+Size : Beaucoup plus grand que les feuilles individuelles. Width 4-8, Height 3-5.
+Style : “Mesh” avec un mesh card plat ou une grappe predefinie.
+TIP: Les hulls donnent le volume vu de loin, les feuilles individuelles donnent le detail vu de pres. Les deux couches ensemble creent la richesse visuelle du breakdown.
+
+# 5. La Spanish Moss
+
+## 5.1 Pourquoi c’est une couche separee
+
+La Spanish moss n’est pas une partie de l’arbre, c’est une plante epiphyte qui pousse SUR l’arbre. Dans le breakdown d’Erik Simon, c’est la derniere couche ajoutee et c’est elle qui transforme completement la silhouette du cypress en un arbre de bayou.
+## 5.2 Creation dans SpeedTree
+Clic droit sur Branch_1 (branches principales) > Add Frond. Nomme ce generateur “SpanishMoss”.
+Section “Generation”
+Count : 6-12 par branche principale. La mousse est ABONDANTE dans le breakdown.
+First/Last : Distribue sur toute la longueur de la branche, mais plus concentre vers les extremites (60-100%).
+Section “Shape”
+Style : “Extrude” ou “Strip”. Tu veux de longues bandes etroites qui pendent.
+Length : 8-15 (longs filaments). Certains doivent pendre tres bas.
+Length Variance : 50-70%. Certains filaments sont courts, d’autres tres longs.
+Width : 0.2-0.5 (etroit).
+Section “Orientation” / “Growth”
+Gravity : 0.9-1.0. C’EST LE REGLAGE CLE. La mousse PEND vers le bas sous l’effet de la gravite. Pousse ce slider au maximum.
+Flexibility : 0.7-0.9. La mousse est souple et suit la gravite.
+Align to Branch : Tres bas, 0.1-0.2. La mousse ne suit pas la branche, elle pend.
+Section “Skin” / Texture
+La texture de Spanish moss est gris-vert, filandreuse, semi-transparente. Encore une fois, texture placeholder pour l’instant. On fera la texture definitive dans Substance.
+ATTENTION: La Spanish moss fait 60% de l’identite visuelle du bayou cypress. Si tu dois passer du temps supplementaire sur une seule partie, c’est celle-ci. Compare constamment avec le breakdown (image Spanish Moss Fronds) : les filaments sont longs, denses, et gravitent fortement vers le bas.
+
+# 6. Randomisation et Polish
+
+## 6.1 Seeds et Variations
+
+Dans SpeedTree, chaque generateur a un parametre “Seed”. Change le seed du Trunk, des Branches, et des Leaves pour generer des variations aleatoires. Tu veux creer 3 variations de ton cypress :
+Variation 1 : Hero tree (grand, dense, beaucoup de mousse). C’est celui au premier plan.
+Variation 2 : Medium tree (taille moyenne, un peu moins de mousse).
+Variation 3 : Dead/sparse tree (branches nues visibles, peu de feuillage, mousse clairsemee). Pour le fond de scene.
+## 6.2 LODs
+SpeedTree genere les LODs automatiquement. Va dans le menu Generation > LOD. Configure 3-4 niveaux de LOD. Le LOD0 est ton full detail, le LOD3 est un billboard (une image plate).
+TIP: Pour ta scene bayou avec une camera fixe, seul le LOD0 compte pour les arbres au premier plan. Mais genere quand meme les LODs pour les arbres de fond, ca sauvera de la VRAM.
+## 6.3 Wind (Vent)
+Si tu veux un leger mouvement dans ta scene (meme pour un screenshot, le wind affect la pose de l’arbre) :
+Menu Wind > Wind Wizard. Choisis “Light Breeze” comme preset de base. SpeedTree va automatiquement assigner les poids de vent aux branches et feuilles. Pour un bayou, le vent est minimal : reduis le Global Wind Strength.
+
+# 7. Export vers Unreal Engine 5
+
+## 7.1 Parametres d’export
+
+File > Export > choisir le format. Pour UE5, deux options :
+FBX (.fbx) : Le plus universel. Exporte la geometrie et les UVs. Tu retextures entierement dans Substance Painter.
+SpeedTree format (.st9 ou .srt) : Format natif compatible UE5. Garde le wind, les LODs, et les proprietes SpeedTree. UE5 a un importeur SpeedTree integre.
+Pour ton workflow avec Substance Painter, exporte en FBX.
+Settings d’export
+Mesh > Smooth Normals : On
+Mesh > Include Vertex Colors : On (utile pour le wind et les masks dans UE5)
+Mesh > Include UV2 : On (lightmap UV)
+Texture Size : Ne pas exporter les textures SpeedTree, on les refait dans Substance.
+## 7.2 Import dans Substance Painter
+Ouvre Substance Painter > New Project > importe ton FBX. Configure :
+Template : Unreal Engine 4 (Packed) ou PBR Metallic Roughness.
+Texture Resolution : 2048 pour le tronc, 1024 pour les branches/feuilles.
+## 7.3 Texturing dans Substance Painter
+Tronc
+Le tronc du bald cypress a une ecorce gris-brun clair, fibreuse, avec des stries verticales. Utilise comme base un Smart Material d’ecorce, puis ajoute :
+Layer 1 : Base bark (gris clair, desature)
+Layer 2 : Color variation (taches plus chaudes/rougeatres par endroits, visible dans la ref)
+Layer 3 : Mousse/lichen verts (c’est la couche “Decals & Projectors” du breakdown). Peins a la main dans les creux et sur les zones orientees nord.
+Layer 4 : Humidite/salete en bas du tronc (zone proche de l’eau, plus sombre, plus saturee)
+Layer 5 : AO/cavity pour accentuer les creux de l’ecorce
+Branches
+Meme ecorce que le tronc mais plus lisse et plus fine sur les branches secondaires et tertiaires.
+Feuilles / Hull Meshes
+Cree un atlas de texture dans Substance Designer ou dans Painter :
+Diffuse : Vert moyen a vert-jaune. Le bald cypress a un feuillage vert clair, pas vert fonce.
+Translucency : Important pour le subsurface scattering dans UE5. Les feuilles de cypress laissent passer la lumiere.
+Opacity : Alpha mask propre pour le decoupage des frondes.
+Spanish Moss
+Diffuse : Gris-vert tres desature, presque argentee.
+Roughness : Tres haut (0.85-0.95). La mousse ne brille pas.
+Normal : Fibreux, filamenteux.
+
+# 8. Import dans UE5
+
+## 8.1 Import du FBX texture
+
+Importe ton FBX dans UE5. Cree un dossier dedie : Content/Bayou/Trees/BaldCypress/
+Importe les texture maps depuis Substance Painter (exportees au format UE4 Packed).
+Assigne les textures aux material slots du mesh dans UE5.
+## 8.2 Material Setup
+Pour chaque partie de l’arbre, configure le material dans UE5 :
+Tronc et Branches
+Shading Model : Default Lit
+Base Color, Normal, ORM : Branche tes textures Substance.
+Feuilles et Hulls
+Shading Model : Two Sided Foliage (ESSENTIEL pour la translucidite)
+Blend Mode : Masked
+Opacity Mask : Branche le canal alpha de ta texture
+Subsurface Color : Vert clair/jaune pour la lumiere qui traverse les feuilles
+ATTENTION: Si tu ne mets pas Two Sided Foliage, tes feuilles seront opaques et moches vues a contre-jour. C’est LA difference entre un arbre amateur et un arbre AAA.
+Spanish Moss
+Shading Model : Two Sided Foliage
+Blend Mode : Masked
+Subsurface Color : Tres bas, presque noir (la mousse laisse peu passer la lumiere)
+## 8.3 Nanite
+Active Nanite sur le tronc et les branches (geometrie lourde). NE L’ACTIVE PAS sur les feuilles/moss si elles utilisent des masked materials, Nanite ne supporte pas bien le masking avec alpha pour le moment.
+## 8.4 Placement dans la scene
+Rappel de ton plan : 5-8 hero trees au premier plan places manuellement, background trees via Foliage Tool. Utilise tes 3 variations (hero/medium/dead) avec des rotations et scales differents pour eviter la repetition.
+
+# 9. Recapitulatif de la Hierarchie SpeedTree
+
+Voici la structure complete de ton arbre dans le Tree Graph SpeedTree :
+
+# 10. Temps estime par phase
+
+TIP: C’est un investissement de temps mais tu auras 3 variations d’un arbre hero quality qui fera 80% du travail visuel de ta scene entiere. Et le skill SpeedTree est ultra bankable en portfolio.
