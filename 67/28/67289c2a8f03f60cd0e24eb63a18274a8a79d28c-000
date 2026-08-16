@@ -1,0 +1,353 @@
+# SalesPlaybook_Zenray
+
+# PLAYBOOK : De Tech Artist à Commercial d’Exception
+
+## Par et pour Matthieu Huguet (Zenray) — Février 2026
+
+> “La vente n’est pas l’opposé de l’art. C’est l’art de faire comprendre ta valeur à quelqu’un qui en a besoin.”
+> 
+
+---
+
+## Principe Fondateur : La Vente est un Node Graph
+
+Tu connais Houdini. Tu sais que chaque output dépend d’un input propre, que chaque node a une fonction précise, et que le résultat final n’est que la somme de micro-décisions bien chaînées.
+
+La vente fonctionne exactement pareil.
+
+```
+[ATTENTION] → [CURIOSITÉ] → [CONFIANCE] → [BESOIN IDENTIFIÉ] → [PROPOSITION] → [DÉCISION]
+```
+
+Tu ne “vends” jamais. Tu fais passer quelqu’un à travers un pipeline. Node par node. Et comme en Houdini, si un node est mal branché, tout le reste tombe.
+
+---
+
+## PHASE 0 : Rewire Mental (Semaine 1)
+
+Avant toute technique, il faut détruire 3 croyances toxiques.
+
+### Croyance 1 : “Vendre c’est mendier”
+
+FAUX. Vendre c’est proposer une solution à quelqu’un qui a un problème. Un studio qui galère avec son pipeline Houdini vers UE5 perd des dizaines de milliers d’euros en temps perdu. Tu ne demandes pas une faveur. Tu proposes d’arrêter l’hémorragie. Le médecin ne “mendie” pas quand il prescrit un traitement.
+
+Reformulation : “Je ne vends pas. Je diagnostique un problème et je propose un traitement.”
+
+### Croyance 2 : “Si mon travail est bon, les gens viendront”
+
+FAUX. C’est le “mythe du mérite”. Miyazaki ne serait personne sans Suzuki Toshio (le producteur qui a vendu chaque film Ghibli au monde). Kojima n’aurait jamais existé sans les commerciaux de Konami dans les années 90. Derrière chaque génie créatif, il y a quelqu’un qui a su vendre. Aujourd’hui, cette personne c’est toi.
+
+Reformulation : “Mon travail est le produit. Ma visibilité est la distribution. Sans distribution, le produit n’existe pas.”
+
+### Croyance 3 : “Le rejet signifie que je ne suis pas assez bon”
+
+FAUX. Le rejet signifie : mauvais timing, mauvais interlocuteur, mauvais budget, ou simplement pas de besoin en ce moment. C’est de la data, pas un jugement. Quand ton node graph plante dans Houdini, tu ne te dis pas “je suis nul”. Tu debug. Le rejet commercial, c’est un debug.
+
+Reformulation : “Chaque non est un data point qui m’approche du bon oui.”
+
+### Exercice Phase 0
+
+Écris sur papier (pas sur Notion, pas sur un .md, sur du papier physique) :
+
+“Je suis Matthieu Huguet. Je résous des problèmes de pipeline procédural que 95% des artistes 3D ne savent pas résoudre. Mon temps vaut 500€ par jour. Les studios qui me disent non perdent de l’argent.”
+
+Lis le à voix haute une fois par jour pendant 7 jours. Pas pour te convaincre. Pour t’habituer à entendre ces mots sortir de ta bouche.
+
+---
+
+## PHASE 1 : L’Arsenal (Semaines 2 à 3)
+
+### Ton Pitch (Le “Elevator Pitch Zenray”)
+
+Tu as 15 secondes pour expliquer ce que tu fais. Voici la structure :
+
+```
+[JE FAIS QUOI] pour [QUI] pour qu'ils puissent [RÉSULTAT CONCRET].
+```
+
+**Version Tech Art :**
+“Je construis des pipelines procéduraux Houdini vers Unreal Engine pour les studios de jeux et d’archviz, pour qu’ils puissent créer des environnements 10 fois plus vite sans sacrifier la qualité AAA.”
+
+**Version Grand Public (networking, soirées) :**
+“Je suis l’ingénieur derrière les décors de jeux vidéo. Tu sais les forêts dans Zelda, les villes dans Final Fantasy ? Je crée les systèmes qui génèrent ça automatiquement.”
+
+### Tes 3 Histoires de Guerre
+
+Chaque bon commercial a des histoires. Pas des pitchs, des histoires. Tu en as besoin de 3 :
+
+**Histoire 1 : Le Problème Que Tu Résous**
+“Un studio passait 3 semaines à placer de la végétation à la main dans Unreal. J’ai créé un HDA Houdini qui fait le même travail en 2 heures, avec des résultats plus cohérents. C’est ça, le procédural.”
+
+(Adapte avec ton propre cas. Pampa Grass HDA est parfait pour ça.)
+
+**Histoire 2 : Pourquoi Toi et Pas un Autre**
+“Les Houdini Artists pour le jeu vidéo, on est peut être 200 en Europe à un niveau vraiment solide. La plupart sont en VFX film. Moi je suis spécialisé temps réel, esthétique japonaise, avec un pipeline qui sort directement dans UE5 avec les vertex colors, les LODs, tout prêt.”
+
+**Histoire 3 : Ta Vision (pour les clients haut de gamme)**
+“Mon objectif c’est de créer le meilleur jeu vidéo solo jamais fait. D’ici là, chaque projet freelance que je prends me rend meilleur et donne à mes clients un niveau d’exigence que personne d’autre n’apporte.”
+
+### Ton Portfolio de Vente (différent du portfolio artistique)
+
+Ton ArtStation montre ton art. Ton portfolio de vente montre tes résultats. Crée une page (Notion publique, site simple, ou même un PDF) avec :
+
+Pour chaque projet, cette structure :
+
+```
+PROBLÈME → SOLUTION → RÉSULTAT
+```
+
+Exemple :
+- PROBLÈME : Création manuelle de végétation = lent et incohérent
+- SOLUTION : HDA Houdini procédural avec VEX, vertex colors UE5-ready
+- RÉSULTAT : Production 10x plus rapide, qualité AAA maintenue, asset réutilisable
+
+---
+
+## PHASE 2 : Les Canaux (Semaines 3 à 6)
+
+### Canal 1 : LinkedIn (ton canal principal)
+
+Tu postes déjà le vendredi. Bien. Voici comment transformer ça en machine à clients.
+
+**Le Post “Aimant à Client” (1 par semaine minimum)**
+
+Structure qui fonctionne dans le Tech Art :
+
+```
+[HOOK : problème que tout le monde reconnaît]
+[EXPLICATION : comment tu l'as résolu]
+[PREUVE : image/gif/vidéo du résultat]
+[CTA discret : "Si vous avez ce problème, je peux en discuter"]
+```
+
+Exemple :
+“La végétation dans UE5, c’est toujours le même problème. Trop de temps à placer, pas assez de contrôle sur le résultat. J’ai passé 3 mois à construire un système procédural dans Houdini qui résout ça. Voici le breakdown. [images] DM ouverts si vous avez des questions sur le pipeline.”
+
+Le “DM ouverts” c’est ta prospection déguisée. Tu ne vends pas. Tu invites.
+
+**La Règle du Commentaire Stratégique (5 min/jour)**
+
+Chaque jour, commente 3 posts de :
+- Technical Directors dans des studios
+- Recruteurs spécialisés gamedev/3D
+- Autres Tech Artists seniors
+
+Pas des “great post!”. Des commentaires qui montrent ton expertise :
+“Intéressant. Sur ce type de scatter, j’ai trouvé que combiner un Tile Sampler avec un Distance node dans Substance donne un contrôle beaucoup plus fin sur la distribution. Tu as testé cette approche ?”
+
+En 30 jours, ces personnes reconnaîtront ton nom. En 60 jours, certaines te contacteront.
+
+### Canal 2 : Communautés (ta prospection invisible)
+
+Où traîner et comment :
+
+| Communauté | Fréquence | Action |
+| --- | --- | --- |
+| Discord Unreal Slackers | 15 min/jour | Répondre aux questions techniques |
+| Discord Houdini Official | 15 min/jour | Partager des tips VEX |
+| r/unrealengine | 3x/semaine | Posts breakdown + réponses |
+| Polycount | 1x/semaine | WIP thread de tes projets |
+| Tech Art Aid (Discord) | 15 min/jour | Networking avec des pairs |
+
+Règle : Pour chaque réponse que tu donnes, tu gagnes de la crédibilité. Et la crédibilité convertit mieux que n’importe quel DM froid.
+
+### Canal 3 : Plateformes de Freelance (le filet de sécurité)
+
+Inscription sur ces plateformes (une fois, 2h de setup, puis c’est passif) :
+
+| Plateforme | Type | TJM visé |
+| --- | --- | --- |
+| Malt | Freelance FR | 350 à 500€/jour |
+| Fiverr Pro | International | 400 à 800€/jour |
+| Upwork | International | 300 à 600€/jour (au début) |
+| YeR Digital | Agence gamedev | Variable |
+
+Sur Malt et Upwork, les clients viennent à toi si ton profil est bien fait. C’est de la prospection passive.
+
+---
+
+## PHASE 3 : La Conversation de Vente (le node le plus important)
+
+### Quand quelqu’un te contacte (ou que tu as un call)
+
+Voici le script en 5 étapes. Apprends le comme un combo dans un jeu de combat.
+
+**Étape 1 : ÉCOUTER (60% du temps de l’appel)**
+
+Questions à poser :
+- “Parlez moi de votre projet. Où en êtes vous ?”
+- “Quel est le plus gros problème que vous rencontrez sur le pipeline 3D en ce moment ?”
+- “Vous avez une deadline ? Un budget défini ?”
+- “Qu’est ce qui se passe si vous ne résolvez pas ce problème ?”
+
+RÈGLE D’OR : Celui qui parle le plus est celui qui achète. Si tu parles plus de 40% du temps, tu es en train de perdre la vente.
+
+**Étape 2 : REFORMULER (montrer que tu as compris)**
+
+“Si je comprends bien, vous avez [problème], et ça vous coûte [conséquence], et vous avez besoin que ce soit résolu d’ici [deadline]. C’est bien ça ?”
+
+Cette phrase fait 90% du travail de closing. Si le client dit “oui, exactement”, la vente est quasi faite.
+
+**Étape 3 : PROPOSER (pas pitcher)**
+
+“Voici ce que je propose : [solution concrète en 2 à 3 phrases]. Ça prendrait environ [durée] et l’investissement serait de [prix].”
+
+Note : Tu dis “investissement”, pas “coût”. Le prix est toujours inférieur à la valeur du problème résolu.
+
+**Étape 4 : GÉRER L’OBJECTION (il y en aura toujours une)**
+
+Les 4 objections classiques et leurs réponses :
+
+| Objection | Réponse |
+| --- | --- |
+| “C’est trop cher” | “Je comprends. Combien vous coûte ce problème chaque semaine en heures perdues ? Si c’est 2 jours de retard par sprint, on parle de [calcul]. Mon intervention se rembourse en [X] semaines.” |
+| “On va réfléchir” | “Bien sûr. Pour vous aider à décider, je peux vous envoyer un mini audit gratuit de votre pipeline actuel avec 3 recommandations concrètes. Ça vous va ?” |
+| “On a quelqu’un en interne” | “Parfait. Est ce que cette personne maîtrise spécifiquement le pipeline Houdini vers UE5 ? Parce que c’est une expertise très niché et je peux intervenir en complément, pas en remplacement.” |
+| “Pas maintenant” | “Aucun souci. Quel serait le bon timing ? Je vous recontacte à ce moment là.” (Et tu le fais vraiment.) |
+
+**Étape 5 : CLOSER (la phrase magique)**
+
+“Est ce qu’on part là dessus ?”
+
+C’est tout. Pas de discours. Pas de pitch final. Juste cette question. Puis silence. Le premier qui parle après cette question perd. Attends.
+
+---
+
+## PHASE 4 : Le Pricing (combien tu vaux)
+
+### La Règle du 10x
+
+Ton prix doit être inférieur à 10x la valeur que tu apportes.
+
+Exemple : Si un studio perd 3 jours par semaine sur du placement manuel que tu peux automatiser, c’est 3 jours x 4 semaines x coût d’un artiste (environ 300€/jour) = 3600€/mois de perdu. Ton intervention à 2000€ est un vol pour eux. Pas pour toi.
+
+### Grille de Pricing Zenray
+
+| Service | Prix | Justification |
+| --- | --- | --- |
+| Consulting initial (2h) | Gratuit ou 150€ | Montre ton expertise, crée la confiance |
+| Mission courte (1 à 3 jours) | 400€/jour | Projets ponctuels, résolution de problème |
+| Mission moyenne (1 à 4 semaines) | 450€/jour | Pipeline setup, création d’outils |
+| Mission longue (1 mois et plus) | 500€/jour | Intégration équipe, consulting récurrent |
+| Forfait outil custom (HDA) | 2000 à 10000€ | Outil procédural livré clé en main |
+
+### Comment Annoncer le Prix Sans Stresser
+
+Ne dis jamais : “Mon tarif c’est…”
+Dis : “L’investissement pour ce type de mission est de [prix]. Ça inclut [livrable 1], [livrable 2], et [livrable 3].”
+
+Toujours lister ce qui est inclus APRÈS le prix. Ça ancre la valeur.
+
+---
+
+## PHASE 5 : Les Habitudes Quotidiennes (Le Système)
+
+### Le “Commercial 30” (30 min/jour, non négociable)
+
+Comme ton sport 30 min incompressibles, voici ton commercial 30 :
+
+| Minute | Action |
+| --- | --- |
+| 0 à 10 | Commenter 3 posts LinkedIn stratégiques |
+| 10 à 20 | Répondre à 2 à 3 questions sur Discord/Reddit |
+| 20 à 25 | Vérifier Malt/Upwork pour nouvelles opportunités |
+| 25 à 30 | Préparer le prochain post LinkedIn (même juste le hook) |
+
+C’est AVANT Houdini. C’est AVANT Toki Pavillion. C’est le premier bloc de ta journée après le sport. Non négociable.
+
+### Le Suivi (CRM minimal)
+
+Un simple fichier Notion ou tableur :
+
+| Contact | Source | Date | Statut | Prochaine action | Notes |
+| --- | --- | --- | --- | --- | --- |
+| Studio X | LinkedIn | 2026-02-28 | Call prévu | Envoyer portfolio | Besoin végétation UE5 |
+
+Ne pas avoir de CRM c’est comme coder sans Git. Tu perds le fil.
+
+---
+
+## PHASE 6 : Le Panache (Ce qui te distingue)
+
+### Le “Pattern Interrupt”
+
+La plupart des freelances envoient : “Bonjour, je suis disponible pour des missions en Tech Art UE5.”
+
+Toi tu envoies :
+
+“J’ai vu votre dernier post sur [projet spécifique]. La façon dont votre équipe a géré [détail technique] est impressionnante. J’ai bossé sur un problème similaire avec Houdini et j’ai trouvé une approche qui divise le temps de production par 5. Je peux vous montrer en 10 minutes si ça vous intéresse.”
+
+C’est spécifique. C’est généreux. C’est irrésistible.
+
+### Le “Free Value Bomb”
+
+Une fois par mois, crée un mini guide gratuit :
+- “3 erreurs de pipeline UE5 qui coûtent 20h par mois aux studios”
+- “Comment optimiser vos vertex colors pour gagner 30% de performance”
+- “Le setup Houdini vers UE5 que j’utilise sur tous mes projets”
+
+Poste le sur LinkedIn. Les gens le partagent. Les décideurs le voient. Ils retiennent ton nom.
+
+### Le “Closer Japonais”
+
+Tu as un avantage que personne d’autre n’a : ta connexion au Japon. Utilise la.
+
+Pour les studios qui font des jeux à esthétique japonaise (et il y en a de plus en plus) :
+“Je suis spécialisé en esthétique japonaise procédurale. Mon objectif c’est de travailler au Japon. En attendant, je mets cette expertise au service de studios qui veulent ce niveau de direction artistique.”
+
+C’est authentique. C’est différenciant. C’est mémorable.
+
+---
+
+## RESSOURCES (Le minimum vital)
+
+### Le Livre (UN SEUL, lis le en premier)
+
+**“$100M Offers” par Alex Hormozi**
+
+Tu connais déjà Hormozi. Ce livre est le seul que tu dois lire sur la vente. Il couvre : comment structurer une offre irrésistible, comment fixer ton prix, comment positionner ta valeur. 200 pages, direct, pas de bullshit. Disponible en Kindle.
+
+### La Vidéo (30 min qui changent tout)
+
+**“How to Sell” par Alex Hormozi sur YouTube**
+
+C’est la masterclass CLOSES (Clarify, Label, Overview, Sell the vacation, Explain away concerns, Solidify). Gratuit. 30 minutes.
+
+### Le Podcast (en arrière plan)
+
+**“My First Million” par Sam Parr et Shaan Puri**
+
+Écoute le pendant la marche ou le sport. Pas pour les techniques de vente mais pour t’imprégner de la mentalité “faire de l’argent comme un sport”. Aligné avec ta philosophie.
+
+---
+
+## TIMELINE RÉALISTE
+
+| Semaine | Focus | Livrable |
+| --- | --- | --- |
+| S1 | Rewire mental + pitch écrit | Pitch mémorisé, 3 histoires écrites |
+| S2 | Arsenal : portfolio de vente, profils plateformes | Malt + Upwork + Fiverr Pro créés |
+| S3 | LinkedIn : premier post “aimant” + routine commentaires | 1 post publié, 15 commentaires stratégiques |
+| S4 | Communautés : présence active | 20 réponses données sur Discord/Reddit |
+| S5 à S6 | Routine “Commercial 30” installée | 30 min/jour pendant 14 jours consécutifs |
+| S7 à S8 | Premier contact entrant ou première réponse plateforme | Premier call de vente (même si ça ne convertit pas) |
+| S9 à S12 | Itération et premier client | Premier devis envoyé, première facture émise |
+
+---
+
+## RAPPEL FINAL
+
+Tu n’as pas besoin de devenir un “vendeur”. Tu as besoin de devenir un Tech Artist que les gens connaissent. La différence est immense.
+
+Les meilleurs commerciaux ne vendent pas. Ils résolvent des problèmes, ils construisent des relations, et ils sont là quand le besoin se présente.
+
+Tu sais déjà résoudre des problèmes. Il te reste à être là quand le besoin se présente.
+
+30 minutes par jour. C’est tout.
+
+> “L’action guérit la peur.” — Zenray Memory, Knowledge.md
+> 
+
+---
+
+*Playbook créé le 28 Février 2026Pour intégration dans : E: ou /Users/user/Memory/*
